@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+::selection {
+  background-color: yellow;
+  color: black;
+}
+/** NOTE
+* ? HOW TO CALL LOCAL FONT INTO TILWINDCSS
+* ! LINK: https://www.geeksforgeeks.org/how-to-use-font-from-local-files-globally-in-tailwind-css/
+*/
+
+/*ARABIC FONT*/
+@font-face {
+  font-family: 'almaria';
+  font-weight: 400;
+  /* font-weight: 600; */
+  font-style: semibold;
+  src: url('../public/assets/fonts/Almarai/Almarai-Light.ttf')
+}
+
+@font-face {
+  font-family: 'almaria';
+  /* font-weight: 700; */
+  font-weight: 500;
+  font-style: bold;
+  src: url('../public/assets/fonts/Almarai/Almarai-Regular.ttf')
+}
+
+@font-face {
+  font-family: 'almaria';
+  font-weight: 600;
+  /* font-weight: 800; */
+  font-style: extrabold;
+  src: url('../public/assets/fonts/Almarai/Almarai-Bold.ttf')
+}
+
+@font-face {
+  font-family: 'almaria';
+  font-weight: 700;
+  /* font-weight: 900; */
+  font-style: black;
+  src: url('../public/assets/fonts/Almarai/Almarai-ExtraBold.ttf')
+}
+
+/*ENGLISH FONT*/
+@font-face {
+  font-family: "sf";
+  font-weight: 300;
+  font-style: light;
+  src: url('../public/assets/fonts/SF-Pro-Text-Font-Family/SF-Pro-Text-Light.otf')
+}
+
+@font-face {
+  font-family: "sf";
+  font-weight: 400;
+  font-style: normal;
+  src: url('../public/assets/fonts/SF-Pro-Text-Font-Family/SF-Pro-Text-Regular.otf')
+}
+
+@font-face {
+  font-family: "sf";
+  font-weight: 500;
+  font-style: medium;
+  src: url('../public/assets/fonts/SF-Pro-Text-Font-Family/SF-Pro-Text-Medium.otf')
+}
+
+@font-face {
+  font-family: "sf";
+  font-weight: 600;
+  font-style: semibold;
+  src: url('../public/assets/fonts/SF-Pro-Text-Font-Family/SF-Pro-Text-Semibold.otf')
+}
+
+@font-face {
+  font-family: "sf";
+  font-weight: 700;
+  font-style: bold;
+  src: url('../public/assets/fonts/SF-Pro-Text-Font-Family/SF-Pro-Text-Bold.otf')
+}
+
+@font-face {
+  font-family: "sf";
+  font-weight: 800;
+  font-style: extrabold;
+  src: url('../public/assets/fonts/SF-Pro-Text-Font-Family/SF-Pro-Text-Heavy.otf')
+}
+
+div {
+  /* color: white; */
+}
+
+.text-4-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.5 !important
+}
+
+@media (max-width: 767px) {
+  .text-4-lines {
+    -webkit-line-clamp: 3;
+  }
+}
+
+/* html, * , button {
+  color: black;
+}
+body {
+  overflow-x: hidden;
+} */
+a,
+button {
+  cursor: pointer;
+}
+
+.services-section .SECTION_TITLE a {
+  /* display: none; */
+}

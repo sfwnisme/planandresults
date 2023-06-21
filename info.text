@@ -1,0 +1,19 @@
+========[Neutral]=========
+base background => gray-950
+Primary Background => gray-900
+Secondary Background => zinc-800
+Line => zinc-700
+Line => slate-200
+Secondary Background => slate-100
+Base Background => slate-50
+Primary Background => white
+
+========[Primary]=========
+Pressed (AAA) => amber-400
+Hover (AAA) => amber-200
+Default (AAA) => amber-100
+Background (AAA) => amber-50
+Background (AAA) => amber-50
+
+========[Text+icons]=========
+Disabled => 
