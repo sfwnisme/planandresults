@@ -5,10 +5,16 @@
 html {
   scroll-behavior: smooth;
 }
+
 ::selection {
   background-color: yellow;
   color: black;
 }
+
+img {
+  pointer-events: none;
+}
+
 /** NOTE
 * ? HOW TO CALL LOCAL FONT INTO TILWINDCSS
 * ! LINK: https://www.geeksforgeeks.org/how-to-use-font-from-local-files-globally-in-tailwind-css/
