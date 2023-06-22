@@ -13,7 +13,7 @@ const ServicesBox = ({ img, text: { title, more, description }, path }) => {
         data-aos="fade-up"
       />
       <div
-        className={`TEXT_BOX bg-c-primary-900/60 text-c-bg-1000 flex flex-col gap-4 max-sm:gap-1 px-9 py-10 max-lg:p-6 max-sm:py-4 max-sm:px-2 max-w-xl max-lg:max-w-md max-sm:max-w-xs absolute -bottom-3 max-sm:bottom-0 ${
+        className={`TEXT_BOX bg-c-primary-900 text-c-bg-1000 flex flex-col gap-4 max-sm:gap-1 px-9 py-10 max-lg:p-6 max-sm:py-4 max-sm:px-2 max-w-xl max-lg:max-w-md max-sm:max-w-xs absolute -bottom-3 max-sm:bottom-0 ${
           i18n.language === "en"
             ? `-left-3 max-sm:left-0`
             : `-right-3 max-sm:right-0`
