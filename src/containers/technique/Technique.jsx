@@ -3,10 +3,10 @@ import React from "react";
 import { SectionTitle } from "..";
 import { useTranslation } from "react-i18next";
 
-const TechniqueSetion = ({ id, title, description }) => (
+const TechniqueSetion = ({ id, title, description, index }) => (
   <main className="bg-c-primary-900/5 max-w-sm max-lg:max-w-full px-6 max-lg:px-4 py-14 max-lg:py-8 relative rounded-xl text-center">
     <span className=" bg-c-primary-900 text-white text-xl max-lg:text-base max-sm:text-xs h-14 max-lg:h-10 w-14 max-lg:w-10 flex items-center justify-center rounded absolute -top-2 -left-2">
-      {id}
+      {index}
     </span>
     <h2 className="text-c-primary-900 text-2xl max-lg:text-xl max-sm:text-base font-bold mb-6 max-sm:mb-2">
       {title}
@@ -30,7 +30,7 @@ const Technique = () => {
       <SectionTitle {...sectionHeader} />
       <div className="flex items-center justify-center gap-24 max-xl:gap-6 flex-wrap">
         {techniquesDetails.map((tech, index) => (
-          <TechniqueSetion {...tech} key={index} />
+          <TechniqueSetion {...tech} index={index + 1} key={index} />
         ))}
       </div>
     </section>
