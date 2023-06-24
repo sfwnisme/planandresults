@@ -1,6 +1,5 @@
-import React from "react";
+import React, { memo } from "react";
 import { useTranslation } from "react-i18next";
-import { Link } from "react-scroll";
 import {
   AiFillFacebook,
   AiFillInstagram,
@@ -18,13 +17,16 @@ const Footer = () => {
   });
   const rights = t("landing_page.footer.rights", { returnObjects: true });
   const currentYear = new Date().getFullYear();
+
+  console.log("Footer.jsx", "Render Footer.jsx");
+
   return (
     <footer
       className=" mx-auto pt-[70px] max-sm:pt-14 pb-6 bg-c-text-primary-2 flex items-center justify-center border-t-2 border-white/10"
       id="footer"
     >
       <div className="max-w-2xl flex flex-col items-center justify-center gap-12 max-sm:gap-4">
-        <HashLink to="/home" data-aos="fade-up">
+        <HashLink to="/#home" data-aos="fade-up">
           <img src={logo} alt="logo" className="w-24 max-sm:w-12" />
         </HashLink>
         <ul className="flex items-center justify-center gap-6 max-sm:gap-2">
@@ -71,4 +73,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default memo(Footer);

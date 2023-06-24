@@ -1,6 +1,8 @@
-import React from "react";
+import React, { memo } from "react";
 
 const PageTitle = ({ title }) => {
+  console.log("PageTitle.jsx", "Render PageTitle.jsx");
+
   return (
     <div className="TITLE flex items-center justify-center gap-1">
       <span className="bg-black w-24 h-[1px] block" data-aos="fade-up"></span>
@@ -15,4 +17,4 @@ const PageTitle = ({ title }) => {
   );
 };
 
-export default PageTitle;
+export default memo(PageTitle);

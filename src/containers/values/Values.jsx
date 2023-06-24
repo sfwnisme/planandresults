@@ -1,9 +1,12 @@
-import React from "react";
+import React, { memo } from "react";
 import { useTranslation } from "react-i18next";
 
 const Values = () => {
   const [t] = useTranslation();
   const content = t("partners.values", { returnObjects: true });
+
+  console.log("Values.jsx", "Render Values.jsx");
+
   return (
     <div>
       <section className="container mx-auto py-[70px] max-sm:py-14">
@@ -26,4 +29,4 @@ const Values = () => {
   );
 };
 
-export default Values;
+export default memo(Values);

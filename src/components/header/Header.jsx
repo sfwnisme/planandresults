@@ -1,10 +1,13 @@
 import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
 import { Navbar } from "../../containers";
+import { memo } from "react";
 
 const Header = () => {
   const [t] = useTranslation();
   const headerContent = t("landing_page.header", { returnObjects: true });
+
+  console.log("Header.jsx", "Render Header.jsx");
 
   return (
     <section className="HEADER px-1">
@@ -52,4 +55,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default memo(Header);

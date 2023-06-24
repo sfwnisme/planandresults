@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { memo, useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { useTranslation } from "react-i18next";
 
@@ -14,6 +14,8 @@ const ContactInfo = ({
   contact_info: { call, email, link },
   social_info,
 }) => {
+  console.log("Contact.jsx", "Render ContactInfo Component");
+
   return (
     <article className="bg-c-primary-900 text-white p-8 w-sm max-md:w-full rounded-lg">
       <h2
@@ -136,6 +138,8 @@ const Form = ({ first_name, last_name, email, phone, message, send }) => {
       );
   };
 
+  console.log("Contact.jsx", "Render Contact Form Component");
+
   return (
     <form
       ref={form}
@@ -204,6 +208,9 @@ const Contact = () => {
   const contactForm = t("landing_page.contact.form", {
     returnObjects: true,
   });
+
+  console.log("Contact.jsx", "Render Contact.jsx");
+
   return (
     <section
       className="container mx-auto py-[70px] max-sm:py-14 px-1"
@@ -217,4 +224,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default memo(Contact);

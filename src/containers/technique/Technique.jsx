@@ -25,6 +25,9 @@ const Technique = () => {
   const techniquesDetails = t("services_page.techniques.body", {
     returnObjects: true,
   });
+
+  console.log("Techniques.jsx", "Render Techniques.jsx");
+
   return (
     <section className="container mx-auto py-[70px] max-sm:py-14 px-1">
       <SectionTitle {...sectionHeader} />

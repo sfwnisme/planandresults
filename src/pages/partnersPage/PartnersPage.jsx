@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import {DigitalPresence, PageHeader, Values} from "../../containers";
 import {useTranslation} from "react-i18next";
 import {Contact, Footer, Navbar} from "../../components";
@@ -23,4 +23,4 @@ const PartnersPage = () => {
     );
 };
 
-export default PartnersPage;
+export default memo(PartnersPage);

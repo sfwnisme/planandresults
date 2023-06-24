@@ -12,22 +12,23 @@ import {
 } from "./components/index";
 import { Routes, Route } from "react-router-dom";
 import ServicesSection from "./pages/servicesPage/ServicesPage";
-import ServiceOne from "./pages/servicesPage/services/ServiceOne";
+import {
+  ServiceFive,
+  ServiceFour,
+  ServiceOne,
+  ServiceSeven,
+  ServiceSix,
+  ServiceThree,
+  ServiceTwo,
+  ServiceZero,
+} from "./pages/servicesPage";
 import AboutPage from "./pages/aboutPage/AboutPage";
-import ServiceTwo from "./pages/servicesPage/services/ServiceTwo";
-import ServiceThree from "./pages/servicesPage/services/ServiceThree";
-import ServiceFour from "./pages/servicesPage/services/ServiceFour";
-import ServiceFive from "./pages/servicesPage/services/ServiceFive";
-import ServiceSix from "./pages/servicesPage/services/ServiceSix";
-import ServiceZero from "./pages/servicesPage/services/ServiceZero";
 import PartnersPage from "./pages/partnersPage/PartnersPage";
 
 // aos
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useLocation } from "react-router-dom";
-
-//
 
 function App() {
   const location = useLocation();
@@ -44,12 +45,13 @@ function App() {
   useEffect(() => {
     Aos.init();
   }, []);
-console.log(location)
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location.pathname]);
 
   //----------
+  console.log("App.jsx:", "Render App.jsx");
 
   return (
     <div
@@ -81,6 +83,7 @@ console.log(location)
         <Route path="/services/service-4" element={<ServiceFour />} />
         <Route path="/services/service-5" element={<ServiceFive />} />
         <Route path="/services/service-6" element={<ServiceSix />} />
+        <Route path="/services/service-7" element={<ServiceSeven />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/partners" element={<PartnersPage />} />
       </Routes>

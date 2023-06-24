@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import { useTranslation } from "react-i18next";
 import { HashLink } from "react-router-hash-link";
 import "./style.css";
@@ -76,4 +76,4 @@ const Team = () => {
   );
 };
 
-export default Team;
+export default memo(Team);

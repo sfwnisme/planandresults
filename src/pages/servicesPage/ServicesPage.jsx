@@ -1,8 +1,10 @@
-import React from "react";
+import React, { memo } from "react";
 import { Contact, Footer, Navbar } from "../../components";
 import { Services, Technique } from "../../containers";
 
 const ServicesSection = () => {
+  console.log("ServicesPage.jsx");
+
   return (
     <section className="services-section" id="services">
       <Navbar />
@@ -15,4 +17,4 @@ const ServicesSection = () => {
   );
 };
 
-export default ServicesSection;
+export default memo(ServicesSection);

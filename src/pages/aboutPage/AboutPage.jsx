@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import { useTranslation } from "react-i18next";
 import AboutBody from "../../components/about/AboutBody";
 import { Contact, Footer, Navbar } from "../../components";
@@ -20,4 +20,4 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;
+export default memo(AboutPage);

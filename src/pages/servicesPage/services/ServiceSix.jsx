@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import { useTranslation } from "react-i18next";
 import { Contact, Footer, Navbar } from "../../../components";
 import { Article } from "../../../containers";
@@ -9,6 +9,9 @@ const ServiceSix = () => {
   const content = t("landing_page.services.body", { returnObjects: true })[
     path
   ];
+
+  console.log("ServiceSix.jsx", "Render ServiceSix.jsx");
+
   return (
     <section className="pt-[70px] max-sm:pt-14">
       <Navbar />
@@ -19,4 +22,4 @@ const ServiceSix = () => {
   );
 };
 
-export default ServiceSix;
+export default memo(ServiceSix);

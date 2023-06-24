@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import { useTranslation } from "react-i18next";
 
 const DigitalPresence = () => {
@@ -41,4 +41,4 @@ const DigitalPresence = () => {
   );
 };
 
-export default DigitalPresence;
+export default memo(DigitalPresence);

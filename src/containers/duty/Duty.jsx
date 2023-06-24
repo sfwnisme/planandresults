@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import { useTranslation } from "react-i18next";
 
 const DutyBox = ({ content }) => (
@@ -64,4 +64,4 @@ const Duty = () => {
   );
 };
 
-export default Duty;
+export default memo(Duty);

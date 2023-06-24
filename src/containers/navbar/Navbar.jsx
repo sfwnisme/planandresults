@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { memo, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { RxHamburgerMenu } from "react-icons/rx";
 import {
@@ -18,6 +18,9 @@ const Navbar = () => {
   const [t, i18n] = useTranslation();
   const [toggle, setToggle] = useState(false);
   let links = t("landing_page.navbar.links", { returnObjects: true });
+
+  console.log("Navbar.jsx", "Render Navbar.jsx");
+
   return (
     <nav className=" mx-auto z-10">
       <div className="LIST_CONTAINER">
@@ -58,7 +61,7 @@ const Navbar = () => {
             )}
           </div>
           <HashLink
-            to="/#contact"
+            to="#contact"
             className=" bg-transparent text-black text-base font-semibold leading-4 border-c-primary-900 border-2 rounded-lg px-6 duration-150 py-4 shadow-c-btn hover:shadow-c-btn-2 max-lg:hidden  hover:border-c-primary-800"
           >
             {t("landing_page.navbar.contact_btn")}
@@ -152,4 +155,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default memo(Navbar);

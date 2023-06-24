@@ -2,8 +2,11 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
 
-const ServicesBox = ({ img, text: { title, more, description }, path }) => {
+const ServiceBox = ({ img, text: { title, more, description }, path }) => {
   const [t, i18n] = useTranslation();
+
+  console.log("ServiceBox.jsx", "Render ServiceBox.jsx" )
+  
   return (
     <div className="BOX relative w-11/12 max-xl:w-full flex items-center justify-center">
       <img
@@ -45,4 +48,4 @@ const ServicesBox = ({ img, text: { title, more, description }, path }) => {
   );
 };
 
-export default ServicesBox;
+export default ServiceBox;

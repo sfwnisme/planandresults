@@ -1,7 +1,9 @@
-import React from "react";
+import React, { memo } from "react";
 import PageTitle from "../pageTitle/PageTitle";
 
 const Article = ({ content }) => {
+  console.log("Article.jsx", "Render Article.jsx");
+
   return (
     <article>
       <div className="container mx-auto py-[70px] max-sm:py-14 px-1">
@@ -23,4 +25,4 @@ const Article = ({ content }) => {
   );
 };
 
-export default Article;
+export default memo(Article);

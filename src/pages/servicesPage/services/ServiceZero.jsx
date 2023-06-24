@@ -1,6 +1,6 @@
-import React from "react";
+import React, { memo } from "react";
 import { useTranslation } from "react-i18next";
-  import { Contact, Footer, Navbar } from "../../../components";
+import { Contact, Footer, Navbar } from "../../../components";
 import { Article } from "../../../containers";
 
 const ServiceZero = () => {
@@ -9,6 +9,9 @@ const ServiceZero = () => {
   const content = t("landing_page.services.body", { returnObjects: true })[
     path
   ];
+
+  console.log("ServiceZero.jsx", "Render ServiceZero.jsx");
+
   return (
     <section className="pt-[70px] max-sm:pt-14">
       <Navbar />
@@ -19,4 +22,4 @@ const ServiceZero = () => {
   );
 };
 
-export default ServiceZero;
+export default memo(ServiceZero);

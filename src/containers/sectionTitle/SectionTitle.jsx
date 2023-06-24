@@ -1,7 +1,10 @@
-import React from "react";
+import React, { memo } from "react";
 import { NavLink } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const SectionTitle = ({ title, description, link, link_2 }) => {
+  console.log("SectionTitle.jsx", "Render SectionTitle.jsx");
+
   return (
     <main className="SECTION_TITLE flex flex-col text-center gap-4 mb-20 max-sm:mb-6">
       <div className="TEXT_BOX flex items-center justify-between">
@@ -24,7 +27,7 @@ const SectionTitle = ({ title, description, link, link_2 }) => {
             data-aos="fade-up"
           ></span>
         </div>
-        <NavLink
+        <HashLink
           to={link.href}
           alt={link.alt}
           className="hover:bg-c-primary-900/10 px-7 max-sm:px-5 py-3 max-sm:py-2 rounded-md text-c-primary-900 text-base max-sm:text-sm flex items-center justify-center gap-2 max-sm:gap-0 duration-150"
@@ -32,7 +35,7 @@ const SectionTitle = ({ title, description, link, link_2 }) => {
         >
           {link.text}
           <img src={link.icon} alt={link.alt} className="" />
-        </NavLink>
+        </HashLink>
       </div>
       <p
         className="DESCRIPTION text-c-text-secondary-2 text-xl max-md:text-lg max-sm:text-sm font-normal max-w-7xl mx-auto"
@@ -44,4 +47,4 @@ const SectionTitle = ({ title, description, link, link_2 }) => {
   );
 };
 
-export default SectionTitle;
+export default memo(SectionTitle);

@@ -1,11 +1,13 @@
-import React from "react";
+import React, { memo } from "react";
 import { useTranslation } from "react-i18next";
 import { SectionTitle, Team } from "../../containers";
 
 // list component
-const WhyUsList = ({why,i18n}) => (
+const WhyUsList = ({ why, i18n }) => (
   <li
-    className={`text-c-text-secondary-2 text-2xl max-lg:text-xl max-sm:text-xs max-sm:leading-5 py-4 max-sm:py-1 px-14 max-lg:px-10 max-sm:px-2 ${i18n.language === `en`?`border-l-2`:`border-r-2`} border-c-primary-900`}
+    className={`text-c-text-secondary-2 text-2xl max-lg:text-xl max-sm:text-xs max-sm:leading-5 py-4 max-sm:py-1 px-14 max-lg:px-10 max-sm:px-2 ${
+      i18n.language === `en` ? `border-l-2` : `border-r-2`
+    } border-c-primary-900`}
     data-aos="fade-up"
   >
     {why}
@@ -13,11 +15,14 @@ const WhyUsList = ({why,i18n}) => (
 );
 
 const WhyUs = () => {
-  const [t,i18n] = useTranslation();
+  const [t, i18n] = useTranslation();
   const whyUsHeader = t("landing_page.why_us.header", { returnObjects: true });
   const whyListData = t("landing_page.why_us.body.list", {
     returnObjects: true,
   });
+
+  console.log("WhyUs.jsx", "Render WhyUs.jsx");
+
   return (
     <section className="container mx-auto py-[70px] max-sm:py-14 px-1">
       <SectionTitle {...whyUsHeader} />
@@ -34,4 +39,4 @@ const WhyUs = () => {
   );
 };
 
-export default WhyUs;
+export default memo(WhyUs);

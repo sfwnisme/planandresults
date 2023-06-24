@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import { PageTitle } from "..";
 import { NavLink } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
@@ -38,4 +38,4 @@ const PageHeader = ({ title, description, link, link_2 }) => {
   );
 };
 
-export default PageHeader;
+export default memo(PageHeader);
