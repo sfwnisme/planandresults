@@ -61,7 +61,7 @@ function App() {
     >
       <Routes>
         <Route
-          path="/*"
+          path="/"
           element={
             <div className=" LANDING_PAGE mx-auto">
               <Header />
