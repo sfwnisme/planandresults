@@ -34,7 +34,7 @@ const WhyUs = () => {
           <WhyUsList why={why} key={index} i18n={i18n} />
         ))}
       </ul>
-      <Team />
+      {/* <Team /> */}
     </section>
   );
 };

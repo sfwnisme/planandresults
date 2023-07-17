@@ -1,4 +1,4 @@
-import React, { memo, useState } from "react";
+import React, { memo, useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { RxHamburgerMenu } from "react-icons/rx";
 import {
@@ -20,6 +20,14 @@ const Navbar = () => {
   let links = t("landing_page.navbar.links", { returnObjects: true });
 
   console.log("Navbar.jsx", "Render Navbar.jsx");
+
+  useEffect(() => {
+    if (i18n.language === "en") {
+      i18n.changeLanguage("en");
+    } else {
+      i18n.changeLanguage("ar");
+    }
+  }, []);
 
   return (
     <nav className=" mx-auto z-10">
