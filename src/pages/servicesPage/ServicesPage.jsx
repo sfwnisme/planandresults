@@ -10,7 +10,7 @@ const ServicesSection = () => {
       <Navbar />
       <div className="pb-14" />
       <Services />
-      <Technique />
+      {/* <Technique /> */}
       <Contact />
       <Footer />
     </section>
