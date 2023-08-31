@@ -17,7 +17,7 @@ const ContactInfo = ({
   console.log("Contact.jsx", "Render ContactInfo Component");
 
   return (
-    <article className="bg-c-primary-900 text-white p-8 w-sm max-md:w-full rounded-lg">
+    <article className="bg-c-primary-900 text-white p-8 w-sm max-md:w-full w-96 rounded-lg">
       <h2
         className="TITLE text-white text-center text-2xl max-sm:text-xl font-bold mb-5 max-sm:mb-1"
         data-aos="fade-up"

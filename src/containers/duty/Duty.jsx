@@ -59,7 +59,7 @@ const Duty = () => {
   return (
     <div className=" container mx-auto px-1">
       <DutyBox content={dutyContent} />
-      <Goals content={goalsContent} />
+      {/* <Goals content={goalsContent} /> */}
     </div>
   );
 };

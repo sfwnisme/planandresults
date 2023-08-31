@@ -31,7 +31,7 @@ import "aos/dist/aos.css";
 import { useLocation } from "react-router-dom";
 
 function App() {
-  const location = useLocation();
+
   const [t, i18n] = useTranslation();
   if (i18n.language === "en") {
     document.documentElement.style.direction = "ltr";
@@ -45,10 +45,11 @@ function App() {
   useEffect(() => {
     Aos.init();
   }, []);
-
+  
+  const location = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [location.pathname]);
+  }, []); // depenencies is [location.pathname]
 
   //----------
   console.log("App.jsx:", "Render App.jsx");

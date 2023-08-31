@@ -16,7 +16,7 @@ const PartnersPage = () => {
             <PageHeader {...headerContent} />
             <PartnersBody/>
             <DigitalPresence/>
-            <Values/>
+            {/* <Values/> */}
             <Contact/>
             <Footer/>
         </div>

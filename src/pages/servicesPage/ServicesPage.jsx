@@ -18,3 +18,5 @@ const ServicesSection = () => {
 };
 
 export default memo(ServicesSection);
+// NOTES
+// Comment Technique Component 

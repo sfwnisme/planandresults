@@ -8,7 +8,7 @@ import {
   AiFillTwitterSquare,
   AiFillLinkedin,
 } from "react-icons/ai";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 // using HashLink as NavLink but it allows you going to the selected id or section
 // ! solution link: https://stackoverflow.com/questions/74297769/how-to-navigate-to-sections-with-id-as-well-as-pages-in-react-router-dom
@@ -29,6 +29,11 @@ const Navbar = () => {
     }
   }, []);
 
+  // const location = useLocation();
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, [location.pathname]);
+
   return (
     <nav className=" mx-auto z-10">
       <div className="LIST_CONTAINER">
@@ -46,8 +51,9 @@ const Navbar = () => {
                 to={`/#${link.id}`}
                 key={index}
                 className=" text-c-text-disabled-2 hover:text-c-text-primary-2 duration-150 text-xl max-xl:text-lg font-medium cursor-pointer"
+                dangerouslySetInnerHTML={{ __html: link.name }} // this attribute allows html tags to display into the dom from json file
               >
-                {link.name}
+                {/* {link.name} */}
               </HashLink>
             ))}
           </ul>
@@ -81,15 +87,13 @@ const Navbar = () => {
         </div>
 
         <div
-          className={`OVERLAY h-screen w-full bg-transparent fixed inset-0 z-10 ${
-            toggle ? "left-0" : "-top-[120vh]"
-          } duration-150 backdrop-blur-sm`}
+          className={`OVERLAY h-screen w-full bg-transparent fixed inset-0 z-10 ${toggle ? "left-0" : "-top-[120vh]"
+            } duration-150 backdrop-blur-sm`}
           onClick={() => setToggle(!toggle)}
         ></div>
         <div
-          className={`SMALL_SCREENS z-10 bg-white h-screen w-4/5 flex flex-col p-7 fixed top-0 ${
-            toggle ? "right-0" : "-right-full"
-          } duration-150 md:w-2/5 lg:hidden`}
+          className={`SMALL_SCREENS z-10 bg-white h-screen w-4/5 flex flex-col p-7 fixed top-0 ${toggle ? "right-0" : "-right-full"
+            } duration-150 md:w-2/5 lg:hidden`}
         >
           <div className="HEADER flex items-center justify-between gap-10 z-10">
             <AiFillCloseCircle

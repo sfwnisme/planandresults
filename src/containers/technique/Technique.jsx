@@ -5,15 +5,15 @@ import { useTranslation } from "react-i18next";
 
 const TechniqueSetion = ({ id, title, description, index }) => (
   <main className="bg-c-primary-900/5 max-w-sm max-lg:max-w-full px-6 max-lg:px-4 py-14 max-lg:py-8 relative rounded-xl text-center">
-    <span className=" bg-c-primary-900 text-white text-xl max-lg:text-base max-sm:text-xs h-14 max-lg:h-10 w-14 max-lg:w-10 flex items-center justify-center rounded absolute -top-2 -left-2">
+    {/* <span className=" bg-c-primary-900 text-white text-xl max-lg:text-base max-sm:text-xs h-14 max-lg:h-10 w-14 max-lg:w-10 flex items-center justify-center rounded absolute -top-2 -left-2">
       {index}
-    </span>
+    </span> */}
     <h2 className="text-c-primary-900 text-2xl max-lg:text-xl max-sm:text-base font-bold mb-6 max-sm:mb-2">
       {title}
     </h2>
-    <p className="text-c-text-disabled-2 text-base max-lg:text-sm max-sm:text-xs font-thin">
+    {/* <p className="text-c-text-disabled-2 text-base max-lg:text-sm max-sm:text-xs font-thin">
       {description}
-    </p>
+    </p> */}
   </main>
 );
 
