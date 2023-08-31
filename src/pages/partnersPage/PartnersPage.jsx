@@ -15,7 +15,7 @@ const PartnersPage = () => {
             <div className="pb-14"/>
             <PageHeader {...headerContent} />
             <PartnersBody/>
-            <DigitalPresence/>
+            {/* <DigitalPresence/> */}
             {/* <Values/> */}
             <Contact/>
             <Footer/>
