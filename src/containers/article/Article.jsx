@@ -17,8 +17,9 @@ const Article = ({ content }) => {
         <p
           className="text-c-text-disabled-2 text-xl max-sm:text-[15px] font-thin leading-[1.5]"
           data-aos="fade-up"
+          dangerouslySetInnerHTML={{ __html: content.text.content }}
         >
-          {content.text.content}
+          {/* {content.text.content} */}
         </p>
       </div>
     </article>

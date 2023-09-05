@@ -10,13 +10,13 @@ const Header = () => {
   console.log("Header.jsx", "Render Header.jsx");
 
   return (
-    <section className="HEADER px-1">
+    <section className="HEADER px-1 min-h-screen bg-[#f9c33c]">
       <Navbar />
       <header
         className=" bg-cover bg-center container py-[70px] max-sm:py-14 flex max-lg:flex-col-reverse items-center justify-between gap-24 max-sm:gap-12  mx-auto"
         id="home"
       >
-        <div className="TEXT_BOX flex-1 max-w-4xl max-lg:flex flex-col items-center max-lg:text-center">
+        <div className="TEXT_BOX max-w-[500px] max-lg:flex flex-col items-center max-lg:text-center">
           <h1
             className="text-black text-7xl max-xl:text-6xl max-sm:text-4xl font-medium mb-5 max-sm:mb-3"
             data-aos="fade-up"
@@ -47,7 +47,7 @@ const Header = () => {
         <img
           src={t("landing_page.header.image.img")}
           alt={t("landing_page.header.image.alt")}
-          className="lg:max-w-xl max-w-sm max-md:w-48 pt-20 max-sm:pt-8"
+          className="max-lg:w-[400px] lg:w-[600px] 2xl:w-[650px] pt-20 max-sm:pt-8"
           data-aos="fade-up"
         />
       </header>
