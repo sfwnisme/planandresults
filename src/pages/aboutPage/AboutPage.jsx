@@ -1,7 +1,7 @@
 import React, { memo } from "react";
 import { useTranslation } from "react-i18next";
-import AboutBody from "../../components/About/AboutBody";
 import { Duty, PageHeader } from "../../containers";
+import { AboutBody } from "../../components";
 
 const AboutPage = () => {
   const [t] = useTranslation();

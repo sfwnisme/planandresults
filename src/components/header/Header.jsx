@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
-import { Navbar } from "../../containers";
 import { memo } from "react";
 
 const Header = () => {
@@ -11,7 +10,6 @@ const Header = () => {
 
   return (
     <section className="HEADER px-1 min-h-screen bg-[#f9c33c] grid place-content-center place-items-center">
-      {/* <Navbar /> */}
       <header
         className=" bg-cover bg-center container py-[70px] max-sm:py-14 flex max-lg:flex-col-reverse items-center justify-between gap-24 max-sm:gap-12  mx-auto"
         id="home"

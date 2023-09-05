@@ -1,7 +1,7 @@
 import React, { memo } from "react";
 import { useTranslation } from "react-i18next";
 import { SectionTitle } from "../../containers";
-import PartnersBody from "./PartnersBody";
+import PartnersBody from "../PartnersBody/PartnersBody";
 
 const Partners = () => {
   const [t] = useTranslation();
