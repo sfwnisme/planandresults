@@ -48,7 +48,7 @@ import { NavLink } from "react-router-dom";
 //   );
 // };
 
-const ServiceBox = ({ img, text: { title, more, description }, id }) => {
+const ServiceBox = ({ img, text: { title, more, description }, path }) => {
   const [t, i18n] = useTranslation();
 
   console.log("ServiceBox.jsx", "Render ServiceBox.jsx")
@@ -78,7 +78,7 @@ const ServiceBox = ({ img, text: { title, more, description }, id }) => {
           {description}
         </p>
         <NavLink
-          to={`/services/${id}`}
+          to={`/services/service-${path}`}
           alt=""
           className="bg-c-primary-800 border-2 border-transparent hover:border-c-primary-700 shadow-sm py-1 max-sm:py-0 px-3 max-sm:px-2 rounded-md flex items-center justify-center text-c-neutral-700 hover:text-c-neutral-1000 duration-150 font-thin text-base max-sm:text-[10px] w-fit "
           data-aos="fade-up"
