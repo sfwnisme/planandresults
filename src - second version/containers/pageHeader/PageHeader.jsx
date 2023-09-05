@@ -5,7 +5,7 @@ import { HashLink } from "react-router-hash-link";
 
 const PageHeader = ({ title, description, link, link_2 }) => {
   return (
-    <div className="PAGEHEADER container mx-auto flex items-center justify-center px-1">
+    <div className="container mx-auto flex items-center justify-center px-1">
       <div className="max-w-5xl flex flex-col items-center justify-center gap-10 max-sm:gap-5 text-center mb-10">
         <PageTitle title={title} />
         <p

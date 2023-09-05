@@ -1,5 +1,5 @@
 import React, { memo } from "react";
-import PageTitle from "../PageTitle/PageTitle";
+import PageTitle from "../pageTitle/PageTitle";
 
 const Article = ({ content }) => {
   console.log("Article.jsx", "Render Article.jsx");

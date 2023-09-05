@@ -1,22 +1,17 @@
 import React, { memo } from "react";
-import { Contact, Footer, Navbar } from "../../components";
-import { Services, Technique } from "../../containers";
+import { Technique } from "../../containers";
+import { ServicesBody } from "../../components";
 
-const ServicesSection = () => {
+const ServicesPage = () => {
   console.log("ServicesPage.jsx");
 
   return (
     <section className="services-section" id="services">
-      <Navbar />
       <div className="pb-14" />
-      <Services />
+      <ServicesBody />
       {/* <Technique /> */}
-      <Contact />
-      <Footer />
     </section>
   );
 };
 
-export default memo(ServicesSection);
-// NOTES
-// Comment Technique Component 
+export default memo(ServicesPage);

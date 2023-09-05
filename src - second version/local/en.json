@@ -7,6 +7,7 @@
         { "id": "services", "name": "Services" },
         { "id": "about", "name": "Who we are" },
         { "id": "whyus", "name": "Why Chosen Us" },
+        { "id": "team", "name": "Our Team" },
         { "id": "partners", "name": "Partners" }
       ],
       "contact_btn": "Contact Us",

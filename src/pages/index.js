@@ -1,0 +1,5 @@
+export { default as HomePage } from './HomePage/HomePage'
+export { default as AboutPage } from './AboutPage/AboutPage'
+export { default as PartnersPage } from './PartnersPage/PartnersPage'
+export { default as ServicesPage } from './ServicesPage/ServicesPage'
+export { default as SingleServicePage } from './SingleServicePage/SingleServicePage'
