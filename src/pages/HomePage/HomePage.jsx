@@ -5,8 +5,8 @@ const HomePage = () => {
   return (
     <div className='HOMEPAGE mx-auto'>
       <Header />
-      <Services />
       <About />
+      <Services />
       <WhyUs />
       <Partners />
     </div>

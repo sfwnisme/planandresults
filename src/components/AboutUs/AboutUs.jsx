@@ -3,7 +3,7 @@ import { SectionTitle } from "../../containers";
 import AboutBody from "../AboutBody/AboutBody";
 import { useTranslation } from "react-i18next";
 
-const About = () => {
+const AboutUs = () => {
   const [t] = useTranslation();
   const aboutHeader = t("landing_page.about.header", { returnObjects: true });
 
@@ -20,4 +20,4 @@ const About = () => {
   );
 };
 
-export default memo(About);
+export default memo(AboutUs);

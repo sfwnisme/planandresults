@@ -1,4 +1,4 @@
-export { default as About } from './About/About'
+export { default as About } from './AboutUs/AboutUs'
 export { default as AboutBody } from './AboutBody/AboutBody'
 export { default as Contact } from './Contact/Contact'
 export { default as Footer } from './Footer/Footer'
@@ -9,4 +9,3 @@ export { default as PartnersBody } from './PartnersBody/PartnersBody'
 export { default as Services } from './Services/Services'
 export { default as ServicesBody } from './ServicesBody/ServicesBody'
 export { default as WhyUs } from './WhyUs/WhyUs'
-//.
