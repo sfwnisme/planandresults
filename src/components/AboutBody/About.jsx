@@ -1,11 +1,11 @@
 import React, { memo } from "react";
 import { useTranslation } from "react-i18next";
 
-const AboutBody = () => {
+const About = () => {
   const [t] = useTranslation();
   const bodyContent = t("landing_page.about", { returnObjects: true });
 
-  console.log("AboutBody.jsx", "Render AboutBody.jsx");
+  console.log("About.jsx", "Render About.jsx");
 
   return (
     <picture
@@ -22,4 +22,4 @@ const AboutBody = () => {
   );
 };
 
-export default memo(AboutBody);
+export default memo(About);

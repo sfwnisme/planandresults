@@ -1,6 +1,6 @@
 import React, { memo } from "react";
 import { SectionTitle } from "../../containers";
-import AboutBody from "../AboutBody/AboutBody";
+import AboutBody from "../AboutBody/About";
 import { useTranslation } from "react-i18next";
 
 const AboutUs = () => {
