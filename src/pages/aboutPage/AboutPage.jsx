@@ -11,7 +11,7 @@ const AboutPage = () => {
       <div className="pb-14" />
       <PageHeader {...headerContent} />
       <AboutBody />
-      <Duty />
+      {/* <Duty /> */}
     </div>
   );
 };

@@ -17,7 +17,7 @@ const SectionTitle = ({ title, description, link, link_2 }) => {
             data-aos="fade-up"
           ></span>
           <h1
-            className="text-black text-4xl max-sm:text-lg font-bold"
+            className="text-black text-4xl max-md:text-lg font-bold"
             data-aos="fade-up"
           >
             {title}

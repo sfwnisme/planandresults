@@ -3,7 +3,7 @@ import { PageTitle } from "..";
 import { NavLink } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
-const PageHeader = ({ title, description, link, link_2 }) => {
+const PageHeader = ({ title, description, link, link_2, link_3 }) => {
   return (
     <div className="PAGEHEADER container mx-auto flex items-center justify-center px-1">
       <div className="max-w-5xl flex flex-col items-center justify-center gap-10 max-sm:gap-5 text-center mb-10">
@@ -24,13 +24,13 @@ const PageHeader = ({ title, description, link, link_2 }) => {
             {link_2.text}
           </NavLink>
           <HashLink
-            to={link.href}
-            alt={link.alt}
+            to={link_3.href}
+            alt={link_3.alt}
             className="hover:bg-c-primary-900/10 px-7 max-sm:px-5 py-3 max-sm:py-2 rounded-md text-c-primary-900 text-base max-sm:text-xs flex items-center justify-center gap-2 max-sm:gap-0 duration-150"
             data-aos="fade-up"
           >
-            {link.text}
-            <img src={link.icon} alt={link.alt} />
+            {link_3.text}
+            <img src={link_3.icon} alt={link_3.alt} />
           </HashLink>
         </div>
       </div>

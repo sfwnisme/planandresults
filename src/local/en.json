@@ -3,75 +3,102 @@
     "navbar": {
       "logo": "../assets/images/logo/logo.png",
       "links": [
-        { "id": "home", "name": "Home" },
-        { "id": "services", "name": "Services" },
-        { "id": "about", "name": "Who we are" },
-        { "id": "whyus", "name": "Why Chosen Us" },
-        { "id": "partners", "name": "Partners" }
+        {
+          "id": "home",
+          "name": "الرئيسية"
+        },
+        {
+          "id": "services",
+          "name": "الخدمات"
+        },
+        {
+          "id": "about",
+          "name": "من نحن"
+        },
+        {
+          "id": "whyus",
+          "name": "لماذا نحن"
+        },
+        {
+          "id": "partners",
+          "name": "شركاء النجاح"
+        }
       ],
-      "contact_btn": "Contact Us",
-      "small_screen_btn": "Services",
-      "link_icon": "../assets/images/icons/icon0/icon-black-en.png",
+      "contact_btn": "تواصل معنا",
+      "small_screen_btn": "الخدمات",
+      "link_icon": "../assets/images/icons/icon0/icon-black-ar.png",
       "social_info": {
-        "fb": { "link": "#facebook", "alt": "facebook" },
-        "insta": { "link": "#instagram", "alt": "instagram" },
-        "tw": { "link": "#twitter", "alt": "twitter" },
-        "in": { "link": "#linkedin", "alt": "linkedin" }
+        "fb": {
+          "link": "#facebook",
+          "alt": "facebook"
+        },
+        "insta": {
+          "link": "#instagram",
+          "alt": "instagram"
+        },
+        "tw": {
+          "link": "#twitter",
+          "alt": "twitter"
+        },
+        "in": {
+          "link": "#linkedin",
+          "alt": "linkedin"
+        }
       }
     },
     "header": {
-      "title": "Your success starts from",
-      "sub_title": "and with mohtoyat Foundation",
-      "description": "The leading Saudi institution in expanding and developing the business of Our partners and their branding",
+      "title": "نجاحك يبدأ بخُطة",
+      "sub_title": "",
+      "description": "من الخُطة المُبتكرة تتولد نتائج تتعدى التوقعات .. نُقدم لك حلول إبداعية لتطوير أعمالك ..",
       "btn": {
-        "text": "Browse Services",
-        "icon": "../assets/images/icons/icon0/icon-black-en.png",
+        "text": "تصفح الخدمات",
+        "icon": "../assets/images/icons/icon0/icon-black-ar.png",
         "href": "/services",
         "alt": "link arrow"
       },
       "image": {
-        "img": "../assets/images/header/hand.png",
+        "img": "../assets/images/header/service4.png",
         "alt": "header image"
       }
     },
     "services": {
       "header": {
-        "title": "Services",
-        "description": "Excellence, creativity and competition are an integral part of our goals, so we work in a plan and to provide a variety of services with international quality and in non-traditional ways that help our customers achieve the continuous success of their business, and our services are",
+        "title": "الخدمات",
+        "description": "خُطتنا وهدفنا هو تقديم خدمات بمعاييرعالمية إبداعية غير إعتيادية ترفع من أسماء عُملاءنا في السوق وتحافظ عليها قوية ومستمرة بين المنافسين .. التميز، الإبداع والمنافسة هم الأساس الذي تنطلق منه خدمات PR",
         "link": {
-          "text": "Browse Services",
+          "text": "تصفح الخدمات",
           "href": "/services",
-          "icon": "../assets/images/icons/icon0/icon-en.png"
+          "icon": "../assets/images/icons/icon0/icon-ar.png"
         }
       },
       "body": [
         {
-          "img": "../assets/images/services/service-0-ar.webp",
+          "img": "../assets/images/services/service5.jpg",
           "text": {
-            "title": "Building visual identity",
-            "more": "Read More",
-            "description": "Visual identity is one of the most important pillars that affect the success and publicity of brands, and an important means that makes the public recognize your brand easily and distinguish your project from others and reflect through it the values and mission of the institution, and visual identity building services include the following",
-            "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Why do we use it?It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). Where does it come from? Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham. where can I get some?There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."
+            "title": "التحول الرقمي",
+            "more": "معرفة المزيد",
+            "description": "في وقتنا الحالي يمر عالمنا بمرحلة تطور رقمي شامل ،فالتواجد الرقمي يضمن الكثير من المميزات التي تعود بالفائدة على جميع القطاعات .. من أهم هذه المميزات وهي الميزة المُفضلة لدى أصحاب المشاريع هي تخفضة التكاليف مع زيادة الجودة والإنتاجية، مع التطور الرقمي يحصل العميل على تجربة مُستخدم ذات جودة عالية تضمن لك عودته مرة أخرى، ستزيد المبيعات و سيزيد مُعدل انتشارك في السوق ووصولك لعدد أكبر من العملاء ..",
+            "content": "في وقتنا الحالي يمر عالمنا بمرحلة تطور رقمي شامل ،فالتواجد الرقمي يضمن الكثير من المميزات التي تعود بالفائدة على جميع القطاعات .. من أهم هذه المميزات وهي الميزة المُفضلة لدى أصحاب المشاريع هي تخفضة التكاليف مع زيادة الجودة والإنتاجية، مع التطور الرقمي يحصل العميل على تجربة مُستخدم ذات جودة عالية تضمن لك عودته مرة أخرى، ستزيد المبيعات و سيزيد مُعدل انتشارك في السوق ووصولك لعدد أكبر من العملاء .. "
           },
           "id": "1"
         },
         {
-          "img": "../assets/images/services/service-1-ar.webp",
+          "img": "../assets/images/services/service2.jpg",
           "text": {
-            "title": "Building visual identity",
-            "more": "Read More",
-            "description": "Visual identity is one of the most important pillars that affect the success and publicity of brands, and an important means that makes the public recognize your brand easily and distinguish your project from others and reflect through it the values and mission of the institution, and visual identity building services include the following",
-            "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Why do we use it?It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). Where does it come from? Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham. where can I get some?There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."
+            "title": "التسويق الرقمي",
+            "more": "معرفة المزيد",
+            "description": "المحتوى الإبداعي المبتكر ولغة التواصل الصحيحة الواضحة و المناسبة للفئة المستهدفة والتي تعكس هويتك وأهدافك وقيم هويتك تجعل التواصل مع الجمهور أسرع وأقل تعقيداً و تُساهم في انتشارالعلامة التجارية على منصات التواصل الإجتماعي وتُقرّبها أكثر للعُملاء الحاليين و المُحتملين  كل هذه مع استخدام التقنية لتعزيز عملية التوسع والانتشار يضمن لأصحاب الأعمال نتائج تفوق التوقعات وللوصل لأعلى درجات الفائدة من التسويق التقني والتسويق بالمحتوى، من المُهم جداً إعداد خطة تسويقية، البدء في صناعة المحتوى الرقمي ( نصوص - تصاميم - فيديوهات )، إدارة منصات التواصل الاجتماعي ، إدارة الحملات الإعلانية على جميع المنصات الرقمية والتسويق من خلال المؤثرين .. جميع هذه الأدوات هي أساسية في عملية التسويق الرقمي وتعود بنتائج أكثرمن مُرضية",
+            "content": "المحتوى الإبداعي المبتكر ولغة التواصل الصحيحة الواضحة و المناسبة للفئة المستهدفة والتي تعكس هويتك وأهدافك وقيم هويتك تجعل التواصل مع الجمهور أسرع وأقل تعقيداً و تُساهم في انتشارالعلامة التجارية على منصات التواصل الإجتماعي وتُقرّبها أكثر للعُملاء الحاليين و المُحتملين  كل هذه مع استخدام التقنية لتعزيز عملية التوسع والانتشار يضمن لأصحاب الأعمال نتائج تفوق التوقعات وللوصل لأعلى درجات الفائدة من التسويق التقني والتسويق بالمحتوى، من المُهم جداً إعداد خطة تسويقية، البدء في صناعة المحتوى الرقمي ( نصوص - تصاميم - فيديوهات )، إدارة منصات التواصل الاجتماعي ، إدارة الحملات الإعلانية على جميع المنصات الرقمية والتسويق من خلال المؤثرين .. جميع هذه الأدوات هي أساسية في عملية التسويق الرقمي وتعود بنتائج أكثرمن مُرضية"
           },
           "id": "2"
         },
         {
-          "img": "../assets/images/services/service-2-ar.webp",
+          "img": "../assets/images/services/service4.jpg",
           "text": {
-            "title": "Building visual identity",
-            "more": "Read More",
-            "description": "Visual identity is one of the most important pillars that affect the success and publicity of brands, and an important means that makes the public recognize your brand easily and distinguish your project from others and reflect through it the values and mission of the institution, and visual identity building services include the following",
-            "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Why do we use it?It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). Where does it come from? Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham. where can I get some?There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."
+            "title": "البراند",
+            "more": "معرفة المزيد",
+            "description": "الهوية البصرية هي 'الطريقة العملية' التي تحقق من خلالها التواصل مع عملاءك و ترسخ علامتك التجارية في عقولهم .. وهي من أهم الجوانب التي تميز المشروع أو المؤسسة، حيث تعكس قيم مؤسستك ورسالتها وتميزها بين العلامات التجارية في السوق، تثبت تواجدك وتضمن إستمراريته ..و من المهم لك معرفة ماهية الهوية البصرية لتدرك أهميتها فهي لا تقتصر فقط على الشعار ",
+            "content": "<p style='t ext-align:right'><span style='font-size:13pt'><span style=''><span style='color:#000000'><u>ميّز مشروعك واترك بصمة مُختلفة !</u></span></span></span></p> <p>&nbsp;</p> <p style='text-align:right'><span style='font-size:13pt'><span style=''><span style='color:#000000'>الهوية البصرية هي &quot;الطريقة العملية&quot; التي تحقق من خلالها التواصل مع عملاءك و ترسخ علامتك التجارية في عقولهم .. وهي من أهم الجوانب التي تميز المشروع أو المؤسسة، حيث تعكس قيم مؤسستك ورسالتها وتميزها بين العلامات التجارية في السوق، تثبت تواجدك وتضمن إستمراريته ..و من المهم لك معرفة ماهية الهوية البصرية لتدرك أهميتها فهي لا تقتصر فقط على الشعار ( Logo) ولكنها أكثر شمولاً وتفصيلاً&nbsp; ..الهوية تكمن في التفاصيل التي تضفي صفات تميز مشروعك عن المنافسين في السوق وتعزز المبيعات وتحقق النجاح .. كيف تتحدث وتخاطب الجمهور؟ ( صوت البراند)&nbsp; كيف تبدو ؟ ماهي الألوان التي تستخدمها في جميع التفاصيل والعناصر الخاصة بالمشروع كنوع الخط ، تصميم بطاقات التعريف و تغليف المنتجات أو حتى في واجهة موقعك الإلكتروني وخلال الإعلانات ، على منصات التواصل الإجتماعي .. وغيرها الكثير من التفاصيل التي ترسم هوية المشروع البصرية ..</span></span></span></p> <p>&nbsp;</p>"
           },
           "id": "3"
         }
@@ -79,57 +106,56 @@
     },
     "about": {
       "header": {
-        "title": "About",
-        "description": "Excellence, creativity and competition are an integral part of our goals, so we work in a plan and to provide a variety of services with international quality and in non-traditional ways that help our customers achieve the continuous success of their business, and our services are",
+        "title": "من نحن",
+        "description": "مؤسسة سعودية مُتخصصة تقدم باقة متنوعة من خدمات التسويق الرقمي، صناعة المُحتوى الإبداعي، تصميم الجرافيك، إدارة وتطوير منصات التواصل الاجتماعي وزيادة الوعي بالعلامة التجارية .. شغفنا يقودنا إلى تقديم خدمات بجودة تفوق توقعات العميل حيث نعمل بناءًا على تخطيط دقيق وخبرة مهنية واسعة يقدمها فريق مُبدع ومواكب للتطورات ويسعى بشكل دائم إلى التطوير والتحسين لتحقيق أفضل النتائج ..",
         "link": {
-          "text": "Browse Services",
-          "href": "/services",
-          "alt": "Browse Services",
-          "icon": "../assets/images/icons/icon0/icon-en.png"
+          "text": "من نحن",
+          "href": "/about",
+          "alt": "من نحن",
+          "icon": "../assets/images/icons/icon0/icon-ar.png"
         },
         "link_2": {
-          "text": "Browse Services",
+          "text": "تصفح الخدمات",
           "href": "/services",
-          "alt": "Browse Services"
+          "alt": "تصفح الخدمات"
+        },
+        "link_3": {
+          "text": "تواصل معنا",
+          "href": "/#contact",
+          "alt": "تواصل معنا",
+          "icon": "../assets/images/icons/icon0/icon-ar.png"
         }
       },
       "body": {
-        "image": "../assets/images/about/about.webp"
+        "image": "../assets/images/about/image.jpg"
       }
     },
     "why_us": {
       "header": {
-        "title": "Why Us",
+        "title": "لماذا خطة ونتائج",
         "description": "",
         "link": {
-          "text": "Browse Services",
+          "text": "تصفح الخدمات",
           "href": "/services",
-          "alt": "Browse Services",
-          "icon": "../assets/images/icons/icon0/icon-en.png"
+          "alt": "تصفح الخدمات",
+          "icon": "../assets/images/icons/icon0/icon-ar.png"
         }
       },
       "body": {
         "list": [
-          "We work according to accurate plans guaranteed",
-          "We adopt international quality standards in the",
-          "We work according to accurate plans guaranteed",
-          "We adopt international quality standards in the",
-          "We work according to accurate plans guaranteed",
-          "We adopt international quality standards in the",
-          "We work according to accurate plans guaranteed",
-          "We adopt international quality standards in the",
-          "We work according to accurate plans guaranteed",
-          "We adopt international quality standards in the"
+          "جودة العمل تقودنا إلى نتائج أفضل",
+          "القدرة على حل المشكلات التسويقية",
+          "قوة الإستهداف وإدارة الحملات"
         ],
         "team": {
           "header": {
-            "title": "Team Work",
-            "description": "Excellence, creativity and competition are an integral part of our goals, so we work in a plan and to provide a variety of services with international quality and in non-traditional ways that help our customers achieve the continuous success of their business, and our services are",
+            "title": "فريقنا",
+            "description": "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.إذا كنت تحتاج إلى عدد أكبر",
             "link": {
-              "text": "Contact Us",
+              "text": "تواصل معنا",
               "href": "/#contact",
-              "alt": "Contact Us",
-              "icon": "../assets/images/icons/icon0/icon-black-en.png"
+              "alt": "تواصل معنا",
+              "icon": "../assets/images/icons/icon0/icon-black-ar.png"
             }
           },
           "testimonials": [
@@ -147,18 +173,24 @@
     },
     "partners": {
       "header": {
-        "title": "Partners Who Trust Us",
-        "description": "Excellence, creativity and competition are an integral part of our goals, so we work in a plan and results to provide a variety of services with international quality and in non-traditional ways that help our customers achieve the continuous success of their business, and our services are:",
+        "title": "شركاء خطة ونتائج",
+        "description": "",
         "link": {
-          "text": "Contact",
+          "text": "تواصل معنا",
           "href": "/#contact",
-          "alt": "Contact",
-          "icon": "../assets/images/icons/icon0/icon-en.png"
+          "alt": "تواصل معنا",
+          "icon": "../assets/images/icons/icon0/icon-ar.png"
         },
         "link_2": {
-          "text": "Browse Services",
+          "text": "تصفح الخدمات",
           "href": "/services",
-          "alt": "Browse Services"
+          "alt": "تصفح الخدمات"
+        },
+        "link_3": {
+          "text": "تواصل معنا",
+          "href": "/#contact",
+          "alt": "تواصل معنا",
+          "icon": "../assets/images/icons/icon0/icon-ar.png"
         }
       },
       "body": {
@@ -175,8 +207,8 @@
     "contact": {
       "informations": {
         "header": {
-          "title": "Contact Info",
-          "description": "The leading Saudi institution in expanding and developing the"
+          "title": "معلومات التواصل",
+          "description": "للتواصل والمزيد من الاستفسارات"
         },
         "contact_info": {
           "call": {
@@ -215,49 +247,58 @@
         }
       },
       "form": {
-        "first_name": "First Name",
-        "last_name": "Last Name",
-        "phone": "Phone Number",
-        "email": "E-mail",
-        "message": "Write Your Message",
-        "send": "Send"
+        "first_name": "الاسم الاول",
+        "last_name": "الاسم الاخير",
+        "phone": "رقم الهاتف",
+        "email": "البريد الالكتروني",
+        "message": "اكتب رسالتك هنا",
+        "send": "ارسل"
       }
     },
     "footer": {
       "rights": [
-        { "name": "Copyright", "href": "#" },
-        { "name": "Terms & Conditions", "href": "#" },
-        { "name": "Privacy", "href": "#" }
+        {
+          "name": "الحقوق محفوظة",
+          "href": "#"
+        },
+        {
+          "name": "الشروط والأحكام",
+          "href": "#"
+        },
+        {
+          "name": "الخصوصية",
+          "href": "#"
+        }
       ]
     }
   },
   "services_page": {
     "techniques": {
       "header": {
-        "title": "Work Techniques",
-        "description": "Excellence, creativity and competition are an integral part of our goals, so we work in a plan and results to provide a variety of services with international quality and in non-traditional ways that help our customers achieve the continuous success of their business, and our services are:",
+        "title": "نهجنا في العمل",
+        "description": "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.إذا كنت تحتاج إلى عدد أكبر",
         "link": {
-          "text": "About Us",
+          "text": "من نحن",
           "href": "/about",
-          "alt": "About Us",
-          "icon": "../assets/images/icons/icon0/icon-en.png"
+          "alt": "من نحن",
+          "icon": "../assets/images/icons/icon0/icon-ar.png"
         }
       },
       "body": [
         {
           "id": 1,
-          "title": "Study Case",
-          "description": "Excellence, creativity and competition are an integral part of our goals, so we work in a plan and to provide a variety of services with international quality and in non-traditional ways that help our customers achieve the continuous "
+          "title": "دراسة وتعقب",
+          "description": "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.إذا كنت تحتاج إلى عدد أكبر"
         },
         {
           "id": 2,
-          "title": "Study Case",
-          "description": "Excellence, creativity and competition are an integral part of our goals, so we work in a plan and to provide a variety of services with international quality and in non-traditional ways that help our customers achieve the continuous "
+          "title": "دراسة وتعقب",
+          "description": "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.إذا كنت تحتاج إلى عدد أكبر"
         },
         {
           "id": 3,
-          "title": "Study Case",
-          "description": "Excellence, creativity and competition are an integral part of our goals, so we work in a plan and to provide a variety of services with international quality and in non-traditional ways that help our customers achieve the continuous "
+          "title": "دراسة وتعقب",
+          "description": "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.إذا كنت تحتاج إلى عدد أكبر"
         }
       ]
     }
@@ -266,28 +307,28 @@
     "body": {
       "duty": [
         {
-          "title": "Our Duty",
-          "description": "The leading Saudi institution in expanding and developing the business of Our partners and their branding The leading Saudi institution in expanding and developing the business of Our partners and their branding"
+          "title": "واجبنا",
+          "description": "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.إذا كنت تحتاج إلى عدد أكبر"
         },
         {
-          "title": "Our Message",
-          "description": "The leading Saudi institution in expanding and developing the business of Our partners and their branding The leading Saudi institution in expanding and developing the business of Our partners and their branding"
+          "title": "رسالتنا",
+          "description": "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.إذا كنت تحتاج إلى عدد أكبر"
         }
       ],
       "goals": {
-        "title": "Goals",
-        "description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Why do we use it?It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). Where does it come from? Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham. where can I get some?"
+        "title": "اهدافنا",
+        "description": "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً،دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق. هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير منسق، أو حتى غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً. هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً،دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق. هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير منسق، أو حتى غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً. هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً،دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق. هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير منسق، أو حتى غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً."
       }
     }
   },
   "partners": {
     "digital_presence": {
-      "title": "Digital Presence",
-      "description": "Excellence, creativity and competition are an integral part of our goals, so we work in a plan and to provide a variety of services with international quality and in non-traditional"
+      "title": "التحول الرقمي",
+      "description": "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.إذا كنت تحتاج إلى عدد أكبر"
     },
     "values": {
-      "title": "Our Values",
-      "description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Why do we use it?It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). Where does it come from? Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham. where can I get some?"
+      "title": "قيمنا",
+      "description": "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً،دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق. هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير منسق، أو حتى غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً. هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً،دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق. هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير منسق، أو حتى غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً. هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً،دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق. هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير منسق، أو حتى غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً."
     }
   }
 }
