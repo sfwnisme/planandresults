@@ -11,7 +11,7 @@ const Layout = () => {
   return (
     <div
       className={`App bg-white ${i18n.language === "en" ? "font-sf" : "font-almaria"} text-white`}>
-      <ScreenLoader />
+      {/* <ScreenLoader /> */}
       <Navbar />
       <Outlet />
       <Contact />
