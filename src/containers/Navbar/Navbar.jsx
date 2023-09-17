@@ -34,10 +34,15 @@ const Navbar = () => {
   //   window.scrollTo(0, 0);
   // }, [location.pathname]);
 
+  useEffect(() => {
+    const y = window.scrollY
+    console.log('scroll y', y)
+  }, [window.scrollY])
+
   return (
-    <nav className="mx-auto z-10">
+    <nav className="mx-auto">
       <div className="LIST_CONTAINER">
-        <div className="LARGE_SCREENS shadow-sm z-10 fixed top-0 left-0 w-full py-4 max-sm:py-4 max-lg:px-4 lg:px-8 mx-auto flex items-center justify-between gap-10 bg-white/50 backdrop-blur-lg">
+        <div className="LARGE_SCREENS z-20 shadow-sm fixed top-0 left-0 w-full py-4 max-sm:py-4 max-lg:px-4 lg:px-8 mx-auto flex items-center justify-between gap-10 bg-white/80 backdrop-blur-xl backdrop-saturate-150">
           <HashLink to="/">
             <img
               src={t("landing_page.navbar.logo")}
@@ -57,7 +62,7 @@ const Navbar = () => {
               </HashLink>
             ))}
           </ul>
-          <div className="LANG_BTN max-lg:flex-1 flex items-center justify-end">
+          {/* <div className="LANG_BTN max-lg:flex-1 flex items-center justify-end">
             {i18n.language === "en" ? (
               <button
                 className="bg-c-primary-900 duration-150 py-2 max-sm:py-1 px-3 max-sm:px-2 rounded-md max-sm:rounded-sm font-almaria text-sm max-sm:text-xs border-transparent hover:border-c-primary-700 border-2"
@@ -73,7 +78,7 @@ const Navbar = () => {
                 EN
               </button>
             )}
-          </div>
+          </div> */}
           <HashLink
             to="#contact"
             className=" bg-transparent text-black text-base font-semibold leading-4 border-c-primary-900 border-2 rounded-lg px-6 duration-150 py-4 shadow-c-btn hover:shadow-c-btn-2 max-lg:hidden  hover:border-c-primary-800"

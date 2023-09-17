@@ -28,12 +28,12 @@ const SectionTitle = ({ title, description, link, link_2 }) => {
           ></span>
         </div>
         <HashLink
-          to={link.href}
-          alt={link.alt}
+          to={location.pathname == '/services' ? '/about' : link.href}
+          alt={location.pathname == '/services' ? 'about' : link.alt}
           className="hover:bg-c-primary-900/10 px-7 max-sm:px-5 py-3 max-sm:py-2 rounded-md text-c-primary-900 text-base max-sm:text-sm flex items-center justify-center gap-2 max-sm:gap-0 duration-150"
           data-aos="fade-up"
         >
-          {link.text}
+          {location.pathname == '/services' ? 'من نحن' : link.text}
           <img src={link.icon} alt={link.alt} className="" />
         </HashLink>
       </div>

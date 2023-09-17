@@ -29,15 +29,15 @@
       "link_icon": "../assets/images/icons/icon0/icon-black-ar.png",
       "social_info": {
         "fb": {
-          "link": "#facebook",
+          "link": "https://www.facebook.com/profile.php?id=100092621615741",
           "alt": "facebook"
         },
         "insta": {
-          "link": "#instagram",
+          "link": "https://www.instagram.com/planandresults/",
           "alt": "instagram"
         },
         "tw": {
-          "link": "#twitter",
+          "link": "https://twitter.com/planandresults",
           "alt": "twitter"
         },
         "in": {
@@ -135,9 +135,9 @@
         "title": "لماذا خطة ونتائج",
         "description": "",
         "link": {
-          "text": "تصفح الخدمات",
-          "href": "/services",
-          "alt": "تصفح الخدمات",
+          "text": "من نحن",
+          "href": "/about",
+          "alt": "من نحن",
           "icon": "../assets/images/icons/icon0/icon-ar.png"
         }
       },

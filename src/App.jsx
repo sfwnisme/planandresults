@@ -38,7 +38,8 @@ const App = () => {
   }, [pathname]); // depenencies is [location.pathname]
 
   console.log("App.jsx:", "Render App.jsx");
-
+console.log('==========location', location.origin)
+console.log('==========location', location.pathname)
   return (
     <Routes>
       <Route path="/" element={<Layout />} >

@@ -1,4 +1,5 @@
 import React from 'react'
+import { HashLink } from 'react-router-hash-link';
 
 const Extra = () => {
   return (
@@ -26,6 +27,15 @@ const Extra = () => {
           احنا معاك خطوة بخطوة إلين الحلم يتحقق
           {/* {headerContent.description} */}
         </p>
+        <HashLink
+          to='/#contact'
+          alt='contact'
+          className="bg-c-primary-900/10 hover:bg-c-primary-900/30 w-fit mx-auto px-7 max-sm:px-5 py-3 max-sm:py-2 rounded-md text-c-primary-900 text-base max-sm:text-xs font-medium flex items-center justify-center gap-2 max-sm:gap-0 duration-150"
+          data-aos="fade-up"
+        >
+          تواصل معنا
+          {/* <img src={link_3.icon} alt={link_3.alt} /> */}
+        </HashLink>
       </div>
     </section>
   );

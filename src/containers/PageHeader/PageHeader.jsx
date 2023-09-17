@@ -26,7 +26,7 @@ const PageHeader = ({ title, description, link, link_2, link_3 }) => {
           <HashLink
             to={link_3.href}
             alt={link_3.alt}
-            className="hover:bg-c-primary-900/10 px-7 max-sm:px-5 py-3 max-sm:py-2 rounded-md text-c-primary-900 text-base max-sm:text-xs flex items-center justify-center gap-2 max-sm:gap-0 duration-150"
+            className="hover:bg-c-primary-900/10 px-7 max-sm:px-5 py-3 max-sm:py-2 rounded-md text-c-primary-900 text-base max-sm:text-xs font-medium flex items-center justify-center gap-2 max-sm:gap-0 duration-150"
             data-aos="fade-up"
           >
             {link_3.text}
