@@ -1,0 +1,117 @@
+Folder PATH listing for volume ???? ????? ?????
+Volume serial number is F0D2-BBA5
+S:.
+¦   App.css
+¦   App.jsx
+¦   i18n.js
+¦   index.css
+¦   main.jsx
+¦   react-router-solutions.md
+¦   tree.txt
+¦   
++---animation
+¦       index.js
+¦       
++---components
+¦   ¦   index.jsx
+¦   ¦   
+¦   +---About
+¦   ¦       AboutUs.jsx
+¦   ¦       
+¦   +---AboutBody
+¦   ¦       About.jsx
+¦   ¦       
+¦   +---Contact
+¦   ¦       Contact.jsx
+¦   ¦       
+¦   +---Extra
+¦   ¦       Extra.jsx
+¦   ¦       
+¦   +---Footer
+¦   ¦       Footer.jsx
+¦   ¦       
+¦   +---Header
+¦   ¦       Header.jsx
+¦   ¦       
+¦   +---Layout
+¦   ¦       Layout.jsx
+¦   ¦       
+¦   +---Partners
+¦   ¦       Partners.jsx
+¦   ¦       
+¦   +---PartnersBody
+¦   ¦       PartnersBody.jsx
+¦   ¦       
+¦   +---Preloader
+¦   ¦       preloader.css
+¦   ¦       Preloader.jsx
+¦   ¦       
+¦   +---Services
+¦   ¦       Services.jsx
+¦   ¦       styles.css
+¦   ¦       
+¦   +---ServicesBody
+¦   ¦       ServicesBody.jsx
+¦   ¦       
+¦   +---WhyUs
+¦           WhyUs.jsx
+¦           
++---containers
+¦   ¦   index.jsx
+¦   ¦   
+¦   +---Article
+¦   ¦       Article.jsx
+¦   ¦       
+¦   +---DigitalPresence
+¦   ¦       DigitalPresence.jsx
+¦   ¦       
+¦   +---Duty
+¦   ¦       Duty.jsx
+¦   ¦       
+¦   +---Navbar
+¦   ¦       Navbar.jsx
+¦   ¦       
+¦   +---PageHeader
+¦   ¦       PageHeader.jsx
+¦   ¦       
+¦   +---PageTitle
+¦   ¦       PageTitle.jsx
+¦   ¦       
+¦   +---SectionTitle
+¦   ¦       SectionTitle.jsx
+¦   ¦       
+¦   +---ServicesBox
+¦   ¦       ServiceBox.jsx
+¦   ¦       
+¦   +---Team
+¦   ¦       style.css
+¦   ¦       Team.jsx
+¦   ¦       
+¦   +---Technique
+¦   ¦       Technique.jsx
+¦   ¦       
+¦   +---Values
+¦           Values.jsx
+¦           
++---local
+¦       ar.json
+¦       en.json
+¦       
++---pages
+    ¦   index.jsx
+    ¦   
+    +---AboutPage
+    ¦       AboutPage.jsx
+    ¦       
+    +---HomePage
+    ¦       HomePage.jsx
+    ¦       
+    +---PartnersPage
+    ¦       PartnersPage.jsx
+    ¦       
+    +---ServicesPage
+    ¦       ServicesPage.jsx
+    ¦       
+    +---SingleServicePage
+            SingleServicePage.jsx
+            

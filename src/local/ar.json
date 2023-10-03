@@ -24,7 +24,7 @@
           "name": "شركاء النجاح"
         }
       ],
-      "contact_btn": "تواصل معنا",
+      "contact_btn": "اتصل بنا",
       "small_screen_btn": "الخدمات",
       "link_icon": "../assets/images/icons/icon0/icon-black-ar.png",
       "social_info": {
@@ -47,9 +47,9 @@
       }
     },
     "header": {
-      "title": "نجاحك يبدأ بخُطة",
+      "title": "نجاحك يبدأ بفكرة",
       "sub_title": "",
-      "description": "من الخُطة المُبتكرة تتولد نتائج تتعدى التوقعات .. نُقدم لك حلول إبداعية لتطوير أعمالك ..",
+      "description": "",
       "btn": {
         "text": "تصفح الخدمات",
         "icon": "../assets/images/icons/icon0/icon-black-ar.png",
@@ -120,9 +120,9 @@
           "alt": "تصفح الخدمات"
         },
         "link_3": {
-          "text": "تواصل معنا",
+          "text": "اتصل بنا",
           "href": "/#contact",
-          "alt": "تواصل معنا",
+          "alt": "اتصل بنا",
           "icon": "../assets/images/icons/icon0/icon-ar.png"
         }
       },
@@ -152,9 +152,9 @@
             "title": "فريقنا",
             "description": "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.إذا كنت تحتاج إلى عدد أكبر",
             "link": {
-              "text": "تواصل معنا",
+              "text": "اتصل بنا",
               "href": "/#contact",
-              "alt": "تواصل معنا",
+              "alt": "اتصل بنا",
               "icon": "../assets/images/icons/icon0/icon-black-ar.png"
             }
           },
@@ -176,9 +176,9 @@
         "title": "شركاء خطة ونتائج",
         "description": "",
         "link": {
-          "text": "تواصل معنا",
+          "text": "اتصل بنا",
           "href": "/#contact",
-          "alt": "تواصل معنا",
+          "alt": "اتصل بنا",
           "icon": "../assets/images/icons/icon0/icon-ar.png"
         },
         "link_2": {
@@ -187,9 +187,9 @@
           "alt": "تصفح الخدمات"
         },
         "link_3": {
-          "text": "تواصل معنا",
+          "text": "اتصل بنا",
           "href": "/#contact",
-          "alt": "تواصل معنا",
+          "alt": "اتصل بنا",
           "icon": "../assets/images/icons/icon0/icon-ar.png"
         }
       },

@@ -1,0 +1,37 @@
+Folder PATH listing for volume ???? ????? ?????
+Volume serial number is F0D2-BBA5
+S:.
++---animation
++---components
+|   +---About
+|   +---AboutBody
+|   +---Contact
+|   +---Extra
+|   +---Footer
+|   +---Header
+|   +---Layout
+|   +---Partners
+|   +---PartnersBody
+|   +---Preloader
+|   +---Services
+|   +---ServicesBody
+|   \---WhyUs
++---containers
+|   +---Article
+|   +---DigitalPresence
+|   +---Duty
+|   +---Navbar
+|   +---PageHeader
+|   +---PageTitle
+|   +---SectionTitle
+|   +---ServicesBox
+|   +---Team
+|   +---Technique
+|   \---Values
++---local
+\---pages
+    +---AboutPage
+    +---HomePage
+    +---PartnersPage
+    +---ServicesPage
+    \---SingleServicePage

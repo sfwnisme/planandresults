@@ -9,5 +9,6 @@ export { default as ServiceBox } from './ServicesBox/ServiceBox'
 export { default as Team } from './Team/Team'
 export { default as Technique } from './Technique/Technique'
 export { default as Values } from './Values/Values'
+export { default as Btn } from './Btn/Btn'
 
 

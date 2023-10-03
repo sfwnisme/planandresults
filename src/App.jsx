@@ -13,7 +13,7 @@ import { useLocation } from "react-router-dom";
 
 // aos imports
 import Aos from "aos";
-import "aos/dist/aos.css";
+// import "aos/dist/aos.css";
 
 const App = () => {
 
@@ -28,7 +28,7 @@ const App = () => {
 
   // aos server effects
   useEffect(() => {
-    Aos.init();
+    // Aos.init();
   }, []);
 
   // scroll up onchange the pathname

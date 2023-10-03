@@ -10,14 +10,14 @@ const PartnersBody = () => {
   console.log("PatnersBody.jsx", "Render PartnersBody.jsx");
 
   return (
-    <main className="container mx-auto grid grid-cols-4 max-sm:grid-cols-2 gap-8 items-center max-sm:gap-2 px-1">
+    <main className="container mx-auto flex justify-between flex-wrap items-center max-sm:gap-2 px-1">
       {partnersImagesList.map((img, index) => (
         <img
           src={img}
           alt="partner image"
           key={index}
           data-aos="fade-up"
-          className="w-80 flex items-center justify-center grayscale"
+          className="w-[100px] flex items-center justify-center grayscale"
         />
       ))}
     </main>
