@@ -1,15 +1,20 @@
 import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
-import { memo } from "react";
+import { memo, useState } from "react";
+import Popup from "../Popup/Popup";
 
 const Header = () => {
+  const [close, setClose] = useState(true)
   const [t] = useTranslation();
   const headerContent = t("landing_page.header", { returnObjects: true });
+
+  console.log(close)
 
   console.log("Header.jsx", "Render Header.jsx");
 
   return (
     <section className="HEADER px-1 min-h-screen bg-[#f9c33c] grid place-content-center place-items-center">
+      {!close ? <Popup close={close} setClose={setClose} /> : null}
       <header
         className=" bg-cover bg-center container py-[70px] max-sm:py-14 flex max-lg:flex-col-reverse items-center justify-between gap-24 max-sm:gap-12  mx-auto"
         id="home"
@@ -33,14 +38,19 @@ const Header = () => {
           >
             {headerContent.description}
           </p>
-          <NavLink
+          {/* <NavLink
             to={t("landing_page.header.btn.href")}
             className="bg-c-primary-900 text-c-bg-1000 font-medium rounded-lg duration-150 text-2xl max-sm:text-sm flex items-center justify-start w-fit gap-3  py-4 max-sm:py-3 px-7 max-sm:px-5 border-2 border-transparent  hover:border-c-primary-700"
             data-aos="fade-up"
           >
             {headerContent.btn.text}
             <img src={headerContent.btn.icon} alt={headerContent.btn.alt} />
-          </NavLink>
+          </NavLink> */}
+          <button
+            onClick={() => setClose(!close)}
+            className='bg-c-primary-900 text-c-bg-1000 font-medium rounded-lg duration-150 text-2xl max-sm:text-sm flex items-center justify-start w-fit gap-3  py-4 max-sm:py-3 px-7 max-sm:px-5 border-2 border-transparent  hover:border-c-primary-700'
+          >فكرة ستاربكس</button>
+
         </div>
         <img
           src={t("landing_page.header.image.img")}

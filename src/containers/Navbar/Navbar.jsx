@@ -42,7 +42,7 @@ const Navbar = () => {
   return (
     <nav className="mx-auto">
       <div className="LIST_CONTAINER">
-        <div className="LARGE_SCREENS z-20 shadow-sm fixed top-0 left-0 w-full py-4 max-sm:py-4 max-lg:px-4 lg:px-8 mx-auto flex items-center justify-between gap-10 bg-white/80 backdrop-blur-xl backdrop-saturate-150">
+        <div className="LARGE_SCREENS z-50 shadow-sm fixed top-0 left-0 w-full py-4 max-sm:py-4 max-lg:px-4 lg:px-8 mx-auto flex items-center justify-between gap-10 bg-white/80 backdrop-blur-xl backdrop-saturate-150">
           <HashLink to="/">
             <img
               src={t("landing_page.navbar.logo")}
@@ -92,7 +92,7 @@ const Navbar = () => {
         </div>
 
         <div
-          className={`OVERLAY h-screen w-full bg-transparent fixed inset-0 z-10 ${toggle ? "left-0" : "-top-[120vh]"
+          className={`OVERLAY h-screen w-full bg-transparent fixed inset-0 z-50 ${toggle ? "left-0" : "-top-[120vh]"
             } duration-150 backdrop-blur-sm`}
           onClick={() => setToggle(!toggle)}
         ></div>

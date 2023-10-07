@@ -10,7 +10,7 @@ const Layout = () => {
   const [t, i18n] = useTranslation()
   return (
     <div
-      className={`App bg-white ${i18n.language === "en" ? "font-sf" : "font-almaria"} text-white`}>
+      className={`App bg-white ${i18n.language === "en" ? "font-sf" : "font-almaria"} text-white overflow-x-hidden`}>
       {/* <ScreenLoader /> */}
       <Navbar />
       <Outlet />

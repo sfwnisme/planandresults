@@ -18,6 +18,8 @@ const Footer = () => {
   const rights = t("landing_page.footer.rights", { returnObjects: true });
   const currentYear = new Date().getFullYear();
 
+  console.log(social_info)
+
   console.log("Footer.jsx", "Render Footer.jsx");
 
   return (
@@ -42,16 +44,16 @@ const Footer = () => {
           ))}
         </ul>
         <div className="SOCIAL_LINKS flex items-start justify-start max-sm:gap-1">
-          <a href={social_info.fb.href} alt={social_info.fb.alt}>
+          <a href={social_info.fb.link} alt={social_info.fb.alt}>
             <AiFillFacebook className="h-10 max-sm:h-8 w-10 max-sm:w-8 fill-white hover:fill-c-primary-800" />
           </a>
-          <a href={social_info.insta.href} alt={social_info.insta.alt}>
+          <a href={social_info.insta.link} alt={social_info.insta.alt}>
             <AiFillInstagram className="h-10 max-sm:h-8 w-10 max-sm:w-8 fill-white hover:fill-c-primary-800" />
           </a>
-          <a href={social_info.tw.href} alt={social_info.tw.alt}>
+          <a href={social_info.tw.link} alt={social_info.tw.alt}>
             <AiFillTwitterSquare className="h-10 max-sm:h-8 w-10 max-sm:w-8 fill-white hover:fill-c-primary-800" />
           </a>
-          <a href={social_info.in.href} alt={social_info.in.alt}>
+          <a href={social_info.in.link} alt={social_info.in.alt}>
             <AiFillLinkedin className="h-10 max-sm:h-8 w-10 max-sm:w-8 fill-white hover:fill-c-primary-800" />
           </a>
         </div>

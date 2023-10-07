@@ -200,7 +200,8 @@
           "../assets/images/partners/partner-2.webp",
           "../assets/images/partners/partner-3.webp",
           "../assets/images/partners/partner-4.webp",
-          "../assets/images/partners/partner-5.webp"
+          "../assets/images/partners/partner-5.webp",
+          "../assets/images/partners/partner-6.webp"
         ]
       }
     },
@@ -230,15 +231,15 @@
         "social_info": {
           "fb": {
             "alt": "facebook",
-            "href": "#"
+            "href": "https://www.facebook.com/profile.php?id=100092621615741"
           },
           "insta": {
             "alt": "instagram",
-            "href": "#"
+            "href": "https://www.instagram.com/planandresults/"
           },
           "tw": {
             "alt": "twitter",
-            "href": "#"
+            "href": "https://twitter.com/planandresults"
           },
           "in": {
             "alt": "linkedin",
