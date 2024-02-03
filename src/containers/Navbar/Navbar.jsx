@@ -92,7 +92,7 @@ const Navbar = () => {
         </div>
 
         <div
-          className={`OVERLAY h-screen w-full bg-transparent fixed inset-0 z-50 ${toggle ? "left-0" : "-top-[120vh]"
+          className={`OVERLAY h-screen w-full bg-transparent fixed inset-0 z-10 ${toggle ? "left-0" : "-top-[120vh]"
             } duration-150 backdrop-blur-sm`}
           onClick={() => setToggle(!toggle)}
         ></div>
